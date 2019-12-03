@@ -1,3 +1,6 @@
+//CALCULATOR that not only operates on two inputs, but on multiple inputs....
+
+
 #include<stdio.h>
 #include<math.h>
 

@@ -1,6 +1,8 @@
 # IEEE_Technical_Class
 Task 3.1-
 To print this following pattern,you have to take a input 'n' from the user.
+
+
             4 4 4 4 4 4 4  
             4 3 3 3 3 3 4   
             4 3 2 2 2 3 4   

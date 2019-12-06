@@ -35,15 +35,15 @@ int main()
 
 
     }
-    printf("1 occured %d times\n",num1);
-    printf("2 occured %d times\n",num2);
-    printf("3 occured %d times\n",num3);
-    printf("4 occured %d times\n",num4);
-    printf("5 occured %d times\n",num5);
-    printf("6 occured %d times\n",num6);
-    printf("7 occured %d times\n",num7);
-    printf("8 occured %d times\n",num8);
-    printf("9 occured %d times\n",num9);
-    printf("0 occured %d times\n",num0);
+    printf("%d",num0);
+    printf("%d",num2);
+    printf("%d",num3);
+    printf("%d",num4);
+    printf("%d",num5);
+    printf("%d",num6);
+    printf("%d",num7);
+    printf("%d",num8);
+    printf("%d",num9);
+    printf("%d",num1);
     return 0;
 }

@@ -35,6 +35,7 @@ int main()
 
 
     }
+    printf("THE FREQUENCY COUNT IS :\n");
     printf("%d",num0);
     printf("%d",num2);
     printf("%d",num3);

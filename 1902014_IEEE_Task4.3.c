@@ -5,7 +5,7 @@
 int main()
 {
     int i=0,j,k[20],dec;
-    printf("Enter a number for binary conversion:");
+    printf("Enter a number for conversion:");
     scanf("%d",&dec);
 
     while(dec!=0)

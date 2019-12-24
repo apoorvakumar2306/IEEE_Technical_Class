@@ -1,5 +1,5 @@
 #include<stdio.h>
-long rev(long n) 
+long rev(long n)
 {
    long s=0;
    do
@@ -7,9 +7,9 @@ long rev(long n)
       s=s*10+n%10;
       n=n/10;
    }while(n!=0);
-   return s; 
+   return s;
 }
-void main()
+int main()
 {
    long n,t=0,s=0,k=0,m=0;
    scanf("%ld",&n);
@@ -20,7 +20,7 @@ void main()
    }
    do
    {
-      if(t==0&&n%2=0&&m==0)
+      if(t==0&&n%2==0&&m==0)
       {
          s=10;
          t++;
@@ -40,4 +40,5 @@ void main()
    printf("%ld",rev(s)/10);
    else
    printf("%ld",rev(s));
+return 0;
 }

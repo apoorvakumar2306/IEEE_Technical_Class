@@ -11,18 +11,8 @@ void main()
   }
   do
   {
-     if(n%16==10)
-     a[i]='A'; 
-     else if(n%16==11)
-     a[i]='B'; 
-     else if(n%16==12)
-     a[i]='C'; 
-     else if(n%16==13)
-     a[i]='D'; 
-     else if(n%16==14)
-     a[i]='E'; 
-     else if(n%16==15)
-     a[i]='F'; 
+     if(n%16>=10)
+     a[i]='A'+n%16-10; 
      else
      a[i]=n%16+'0';
      n=n/16;

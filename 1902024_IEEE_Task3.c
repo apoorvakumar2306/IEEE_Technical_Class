@@ -4,6 +4,7 @@
 int main()
 {
     char bnum[1000];
+    printf("Enter a Binary number!\n\n");
     scanf("%s", bnum);
     int len = strlen(bnum);
     int dnum = 0;

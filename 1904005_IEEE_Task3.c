@@ -1,5 +1,6 @@
 #include <math.h>
 #include <stdio.h>
+#include <conio.h>
 int convert(long long a);
 int main()
 {

@@ -1,9 +1,10 @@
 #include<stdio.h>
 #include<math.h>
 void main()
-{
-	int n,i=0,sum=0;
-	scanf("%d",&n);
+{	
+	unsigned long long int n;
+	int i=0,sum=0;
+	scanf("%llu",&n);
 	while(n)
 	{	
 		if(n%10)
